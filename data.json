@@ -1,0 +1,62 @@
+[
+  {
+    "firstName":"LaMarcus",
+    "lastName":"Aldridge",
+    "number":"12",
+    "position":"PF",
+    "height":"83",
+    "weight":"260",
+    "age":"32",
+    "image":"https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200746.png",
+    "college":"University of Texas at Austin",
+    "team":"San Antonio Spurs"
+  },
+  {
+    "firstName":"Kawhi",
+    "lastName":"Leonard",
+    "number":"2",
+    "position":"SF",
+    "height":"79",
+    "weight":"230",
+    "age":"26",
+    "image":"https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png",
+    "college":"San Diego State University",
+    "team":"San Antonio Spurs"
+  },
+  {
+    "firstName":"Danny",
+    "lastName":"Green",
+    "number":"14",
+    "position":"SG",
+    "height":"78",
+    "weight":"215",
+    "age":"30",
+    "image":"https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201980.png",
+    "college":"University of North Carolina",
+    "team":"San Antonio Spurs"
+  },
+  {
+    "firstName":"Dejounte",
+    "lastName":"Murray",
+    "number":"5",
+    "position":"PG",
+    "height":"77",
+    "weight":"170",
+    "age":"21",
+    "image":"https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627749.png",
+    "college":"University of Washington",
+    "team":"San Antonio Spurs"
+  },
+  {
+    "firstName":"Rudy",
+    "lastName":"Gay",
+    "number":"22",
+    "position":"SF",
+    "height":"80",
+    "weight":"230",
+    "age":"31",
+    "image":"https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200752.png",
+    "college":"University of Connecticut",
+    "team":"San Antonio Spurs"
+  }
+]
