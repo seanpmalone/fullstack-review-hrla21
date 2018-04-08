@@ -29,4 +29,27 @@ var newPlayer = new Player({
     "team":"San Antonio Spurs"
 });
 
-newPlayer.save();
+const saveOne = (player, callback) => {
+    //if player is already in db
+    // notify with response
+    // else make new player and save to db
+    // notify successful save
+    Player.find({firstName: player.firstName, lastName: player.lastName}, (err, data) => {
+        if (err) {
+            console.log(err);
+        }
+        if (data) {
+            callback('Player is already in the database');
+        } else {
+            const newPlayer = new Player(player);
+            newPlayer.save((err, savedPlayer) => {
+                if (err) {
+                    console.log(err);
+                }
+                callback('Successfully saved a new player');
+            });
+        }
+    })
+};
+
+exports.saveOne = saveOne;
