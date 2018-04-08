@@ -17,16 +17,16 @@ var playerSchema = mongoose.Schema({
 var Player = mongoose.model('Player', playerSchema);
 
 var newPlayer = new Player({
-    "firstName":"LaMarcus",
-    "lastName":"Aldridge",
-    "number":"12",
-    "position":"PF",
-    "height":"83",
-    "weight":"260",
-    "age":"32",
-    "image":"https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200746.png",
-    "college":"University of Texas at Austin",
-    "team":"San Antonio Spurs"
+    firstName: "LaMarcus",
+    lastName: "Aldridge",
+    number: "12",
+    position: "PF",
+    height: "83",
+    weight: "260",
+    age: "32",
+    image: "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200746.png",
+    college: "University of Texas at Austin",
+    team: "San Antonio Spurs"
 });
 
 const saveOne = (player, callback) => {
@@ -38,7 +38,7 @@ const saveOne = (player, callback) => {
         if (err) {
             console.log(err);
         }
-        if (data) {
+        if (!!data.length) {
             callback('Player is already in the database');
         } else {
             const newPlayer = new Player(player);
